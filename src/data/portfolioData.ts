@@ -2,13 +2,12 @@ import { Project, SkillCategory, EducationItem } from '../types/portfolio';
 
 // Authentic project screenshots uploaded by Gode Mukeng Mukanz
 
-const gmImmoImg = `${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-10-24_at_08.44.04__1__bed8a7a9.jpeg`;
 
-const mayeleImg = `${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-10-24_at_08.44.05_a2672020.jpeg`;
+import gmImmoImg from '../assets/images/project_gm_immo_kin_1792824294445.jpg';
+import mayeleImg from '../assets/images/project_mayele_library_1792824294093.jpg';
+import goyingImg from '../assets/images/project_goying_services_1792824295262.jpg';
+import booostImg from '../assets/images/project_booost_agency_1792824295318.jpg';
 
-const goyingImg = `${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-10-24_at_08.44.05__1__9545578b.jpeg`;
-
-const booostImg = `${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-10-24_at_08.44.04_24dabaa9.jpeg`;
 
 export const PERSONAL_INFO = {
   name: 'Gode Mukeng Mukanz',
