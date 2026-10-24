@@ -1,10 +1,14 @@
 import { Project, SkillCategory, EducationItem } from '../types/portfolio';
 
 // Authentic project screenshots uploaded by Gode Mukeng Mukanz
-const gmImmoImg = '/assets/aistudio/WhatsApp_Image_2026-10-24_at_08.44.04__1__bed8a7a9.jpeg';
-const mayeleImg = '/assets/aistudio/WhatsApp_Image_2026-10-24_at_08.44.05_a2672020.jpeg';
-const goyingImg = '/assets/aistudio/WhatsApp_Image_2026-10-24_at_08.44.05__1__9545578b.jpeg';
-const booostImg = '/assets/aistudio/WhatsApp_Image_2026-10-24_at_08.44.04_24dabaa9.jpeg';
+
+const gmImmoImg = `${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-10-24_at_08.44.04__1__bed8a7a9.jpeg`;
+
+const mayeleImg = `${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-10-24_at_08.44.05_a2672020.jpeg`;
+
+const goyingImg = `${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-10-24_at_08.44.05__1__9545578b.jpeg`;
+
+const booostImg = `${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-10-24_at_08.44.04_24dabaa9.jpeg`;
 
 export const PERSONAL_INFO = {
   name: 'Gode Mukeng Mukanz',
@@ -21,7 +25,8 @@ export const PERSONAL_INFO = {
   linkedinUrl: 'https://linkedin.com',
   availability: 'Disponible pour opportunités (Emploi, Stage & Freelance)',
   avatar: '/assets/aistudio/WhatsApp_Image_2026-10-24_at_08.42.55_eb66488f.jpeg',
-  cvPdfUrl: '/Gode-Mukeng-Mukanz-CV.pdf',
+  cvPdfUrl: `${import.meta.env.BASE_URL}Gode-Mukeng-Mukanz-CV.pdf`,
+
 };
 
 export const PROJECTS: Project[] = [
